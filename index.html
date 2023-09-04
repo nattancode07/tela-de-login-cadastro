@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
     <title>Login</title>
 </head>
 <body class="body">
 
     <div class="div-principal">
         <div class="div-esquerda">
-            <ion-icon name="lock" class="cadeado"></ion-icon>
+            <img src="/imagens/Mobile login-2.gif" class="svg" alt="">
+            <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
         </div>
         <div class="div-direita">
             
@@ -21,6 +23,7 @@
             <div class="sign-up-button">Sign Up
             </div>
 
+            
             <div class="formulario-div">
                 <div class="h1-div">
                     <h1>
@@ -32,11 +35,31 @@
 
                 <form action="">
 
-                    <label for="" aria-placeholder="ecwc">Name</label>
+                    <label for="" >Full Name:</label>
                     
-                    <input type="text">
+                    <input type="text" class="input-campo">
 
+                    <label for="">Email:</label>
+                    
+                    <input type="email" class="input-campo">
+
+                    <label for="">Password:</label>
+                    
+                    <input type="password" class="input-campo">
+
+                    <div class="checkbox-and-a-div">
+                        <input type="checkbox" class="checkbox">
+                        <a href="">I agree all statements in<span class="terms-p">terms of service</span></a>
+                    </div>
                 </form>
+
+
+
+                <div>
+                    <button class="sign-in-now-button">Sign In now</button>
+
+                    
+                </div>
             </div>
 
         </div>
