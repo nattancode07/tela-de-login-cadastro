@@ -16,13 +16,13 @@ body {
 
 h1 {
     font-weight: 200;
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
     border-bottom: 1px solid #7d83ff;
 }
 
 label, p {
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
 }
 
@@ -32,7 +32,7 @@ p {
 
 label {
     margin: 20px 0px 10px 0px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     display: block;
 }
 
@@ -53,13 +53,13 @@ a {
     border-bottom: 1px solid #111218;
     width: 100%;
     height: 1.2em;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #09090c;
 }
 
 .checkbox {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
 }
 
 .checkbox::before {
@@ -139,9 +139,7 @@ img {
 }
 
 .formulario-div {
-    margin-top: 70px ;
-    margin-left: 60px;
-    margin-right: 20px;
+    margin: 85px 20px 0px 70px;
 }
 
 .h1-div {
@@ -163,7 +161,7 @@ img {
 }
 
 .sign-in-now-button {
-    padding: 16px 0px 16px 0px;
+    padding: 16px 0px ;
     width: 170px;
     border: none;
     background-color: #7d83ff;
