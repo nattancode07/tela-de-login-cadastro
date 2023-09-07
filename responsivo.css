@@ -20,11 +20,12 @@
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .h1-div {
         margin-bottom: 60px;
+        width: 600px;
     }
 
     label,p {
@@ -38,7 +39,7 @@
     }
 
     .formulario-div {
-        margin: 150px 20px 0px 100px;
+        margin: 130px 20px 0px 100px;
     }
 
     .input-campo {
