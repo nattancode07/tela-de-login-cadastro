@@ -2,6 +2,10 @@
     img {
         width: 300px;
     }
+
+    .div-principal {
+        margin: 0;
+    }
 }
 
 @media (max-width: 875px) and (min-width: 400px){
@@ -82,5 +86,35 @@
         padding-left: 20px;
         width: 90px;
         font-size: 20px;
+    }
+}
+
+@media (max-width:800px) {
+
+    img {
+        width: 250px;
+    }
+
+    .div-principal {
+        margin: 0;
+        grid-template-rows: 0.4fr 1fr;
+        grid-template-columns: none;
+    }
+
+    .div-esquerda {
+        border-radius: 0;
+    }
+
+    .div-direita {
+        border-radius: 0;
+    }
+
+    .sign-in-button,
+    .sign-up-button {
+        display: none;
+    }
+
+    .formulario-div {
+        margin: 45px 20px 0px 45px;
     }
 }
