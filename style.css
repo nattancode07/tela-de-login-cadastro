@@ -58,8 +58,7 @@ a {
 
 .input-campo-email,
 .input-campo-nome,
-.input-campo-senha {
-    
+.input-campo-senha {   
     font-family: 'Montserrat'; 
     background-color: rgb(0, 0, 0,0);
     border: none;
@@ -81,6 +80,7 @@ a {
 
 .checkbox::before {
     background-color: #111218;
+    color: red;
 }
 
 .input-campo-email,
@@ -114,7 +114,6 @@ img {
 
 .div-direita {
     position: relative;
-    /*background-color: #3b3e52;*/
     background: linear-gradient( #3b3e52, #22242f);
     display: flex;
     border-radius: 0px 14px 14px 0px;
@@ -148,7 +147,7 @@ img {
     font-size: 16px;
     background-color: #22242f;
     color: #f0f0f0;
-    right: 98px ;
+    right: 88px ;
     top: 10px;
     border-radius: 14px 0px 0px 14px;
     transition: background-color 0.3s, font-weight 0.3s;
@@ -156,7 +155,7 @@ img {
 }
 
 .formulario-div {
-    margin: 75px 20px 0px 70px;
+    margin: 50px 20px 0px 60px;
 }
 
 .h1-div {
@@ -173,8 +172,7 @@ img {
 
 .i-agree-p {
     font-size: 1em;
-    font-weight: bold;
-    color:black;
+    color:white;
     margin-left: 10px;
 }
 
